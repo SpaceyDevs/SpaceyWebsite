@@ -7,6 +7,8 @@ Create a fork of the repository in your own by clicking fork in the top right
 
 Open your code editor/terminal and navigate to where you want to place the new project (cd "path")
 
+install git on your machine: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 git clone https://github.com/(your github account)/SpaceyWebsite.git
 
 enjoy
