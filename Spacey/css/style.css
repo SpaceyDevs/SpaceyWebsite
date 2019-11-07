@@ -708,7 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
+  background: #702DD1;
   border: 2px solid #2dc997;
 }
 
@@ -776,7 +776,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #5300CB;
   position: absolute;
   width: 100%;
-  height: 50px;
   bottom: -50px;
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
