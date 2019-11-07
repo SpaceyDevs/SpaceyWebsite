@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(52,59,64,0.96);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -507,11 +507,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .content {
-  background: #0A2135;
+  background: #424966;
 }
 
 #about .about-container .title {
-  color: #8D8D8D;
+  color: #BCBCBC;
   font-weight: 700;
   font-size: 32px;
 }
@@ -531,9 +531,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box {
-  background: #D5D5D5;
+  background: #898B98;
   background-size: cover;
-  padding: 0 0 30px 0;
+  padding: 0 0 30px 0px;
 }
 
 #about .about-container .icon-box .icon {
@@ -669,9 +669,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-   background: linear-gradient(rgba(0,0,0,0.90), rgba(0,0,0,0.81)), url(../img/hero-bg.jpg) fixed top;
+   background: url(../img/calltoactiondiscrod.png) fixed center;
   background-size: cover;
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 #call-to-action .cta-title {
