@@ -495,7 +495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: linear-gradient(#1F102E, #210834);
+  background: linear-gradient(#0D152B, #210834);
   padding: 80px 0;
 }
 
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: linear-gradient(#210834, #130317);
+  background: linear-gradient(#210834, #15041A);
   padding: 80px 0 60px 0;
 }
 
