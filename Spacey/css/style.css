@@ -715,7 +715,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
- background: linear-gradient(rgb(20, 3, 25), rgba(26,45,76,0.60)), url(../img/call-to-action_test.jpg)fixed;
+ background: linear-gradient(rgb(20, 3, 25), rgba(33,58,98,0.60)), url(../img/call-to-action_test.jpg)fixed;
 	background-size: cover;
 	position: top;
   padding: 80px 0;
@@ -754,7 +754,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 200px;
+  height: 225px;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
