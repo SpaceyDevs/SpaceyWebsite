@@ -74,12 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #5c5eac;
-<<<<<<< HEAD
-  color: #2DC997;
-=======
-  color: #fff;
->>>>>>> 09b974150e50aca08029fd936150d510228ee2fb
+  background: #074142;
+  color: #702DD1;
 }
 
 /*--------------------------------------------------------------
