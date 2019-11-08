@@ -480,7 +480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #A2A2A2;
+  color: #E7E7E7;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: #C4C4C4;
 }
 
 /* About Us Section
@@ -716,7 +716,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
- background: linear-gradient(rgba(1,1,1,0.60), rgba(31,51,86,0.60)), url(../img/call-to-action_test.jpg)fixed;
+ background: linear-gradient(#0E0A17, rgba(26,45,76,0.60)), url(../img/call-to-action_test.jpg)fixed;
 	background-size: cover;
 	position: top;
   padding: 80px 0;
@@ -749,7 +749,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #6200EE;
+  background: #702DD1;
   color: #fff;
 }
 
