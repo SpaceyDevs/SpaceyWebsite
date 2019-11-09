@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg)fixed;
+  background: linear-gradient(rgba(33,58,98,0.04), rgba(13,22,39,0.49)), url(../img/hero-bg.jpg)fixed;
   background-size:cover;
   position: relative;
 }
@@ -550,7 +550,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: linear-gradient(#0D152B, #210834);
+  background: linear-gradient(#161630, #210834);
   padding: 25px;
 }
 
@@ -790,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: linear-gradient(#0A010E, rgba(33,58,98,0.45)), url(../img/call-to-action_test.jpg)fixed;
+  background: linear-gradient(#0A010E, rgba(53,93,158,0.26)), url(../img/call-to-action_test.jpg)fixed;
   background-size: cover;
   position: top;
   padding: 80px 0;
