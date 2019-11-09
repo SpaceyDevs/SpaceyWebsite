@@ -564,15 +564,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .content {
   border-radius: 25px;
   background: #1E112D;
-  padding: 1px 2 4px 5px; 
-  border: 3px solid #A8E0CD;
-  width: 90px;
+  margin-right: auto;
+  border: 3px solid #52CFA4;
+  width: 80px;
   height: 375px
 }
 
 
 #about .about-container .title {
-  color: #BCBCBC;
+  color: #DDDDDD;
+  padding-top:10px;
+  padding-left:5px;
   font-stretch:semi-expanded;
   font-weight: 700;
   font-size: 32px;
@@ -597,15 +599,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .icon-box {
   border: 2px solid #fff;
   background: #074142;
-  padding-left: 15px;
-  border-radius: 25px;
-  width: 425px;
-  height: 85px;
-  margin-top:9px;
+  padding-left: 20px;
+  margin: auto;
+  border-radius: 20px;
+  width: 420px;
+  height: 83px;
+  margin-top:8px;
 }
 
 #about .about-container .icon-box .icon {
-  margin-top: 10px;
+  margin-top: 8px;
   float: left;
   background: #1C062C;
   width: 64px;
@@ -625,10 +628,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .title {
-  margin-left: 80px;
+  margin-left: 75px;
   font-weight: 400;
   margin-bottom: 2px;
-	padding-top: 23px;
+	padding-top: 16px;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -648,7 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #facts {
-  background: linear-gradient(#210834, #15041A);
+  background: linear-gradient(#1F0833, #180849);
   padding: 75px 0 60px 0;
 }
 
@@ -743,7 +746,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #call-to-action {
    background: url(../img/calltoactiondiscrod.png)fixed top;
   background-size: cover;
-  padding: 125px;
+  padding: 135px;
 }
 
 #call-to-action .cta-title {
