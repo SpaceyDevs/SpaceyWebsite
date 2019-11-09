@@ -604,7 +604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #about {
   background: linear-gradient(#0D152B, #210834);
-  padding: 50px;
+  padding: 25px;
 }
 
 #about .about-container .background {
@@ -617,10 +617,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .content {
 	border-radius: 25px;
   background: #1E112D;
-  padding: 1px
-	  2
-	  4px
-	  5px; 
+  padding: 1px 2 4px 5px; 
 	border: 3px solid #A8E0CD;
   width: 90px;
   height: 375px
@@ -705,7 +702,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #facts {
   background: linear-gradient(#210834, #15041A);
-  padding: 80px 0 60px 0;
+  padding: 75px 0 60px 0;
 }
 
 #facts .counters span {
