@@ -651,7 +651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #facts {
-  background: linear-gradient(#1F0833, #180849);
+  background: linear-gradient(#1F0833, #0A010E);
   padding: 75px 0 60px 0;
 }
 
@@ -744,7 +744,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-   background: url(../img/calltoactiondiscrod.png)fixed top;
+  background: url(../img/calltoactiondiscrod.png)fixed top;
   background-size: cover;
   padding: 135px;
 }
@@ -763,7 +763,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+	justify-content: flex-end;
   }
 }
 
@@ -790,9 +790,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
- background: linear-gradient(rgba(28,4,35,0.79), rgba(33,58,98,0.60)), url(../img/call-to-action_test.jpg)fixed;
-	background-size: cover;
-	position: top;
+  background: linear-gradient(#0A010E, rgba(33,58,98,0.45)), url(../img/call-to-action_test.jpg)fixed;
+  background-size: cover;
+  position: top;
   padding: 80px 0;
 }
 
