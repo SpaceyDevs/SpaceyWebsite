@@ -74,8 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #074142;
-  color: #702DD1;
+  background: #702DD1;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: #414145;
+  background: #220520;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg)fixed;
+  background: linear-gradient(rgba(33,58,98,0.04), rgba(13,22,39,0.49)), url(../img/hero-bg.jpg)fixed;
   background-size:cover;
   position: relative;
 }
@@ -215,7 +215,62 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #fff;
   color: #fff;
 }
-
+.btn-get-started {
+	-webkit-animation: bounce-top 0.9s both;
+	        animation: bounce-top 0.9s both;
+}
+@-webkit-keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
 #hero .btn-get-started:hover {
   background: #702DD1;
   border: 2px solid #6200EE;
@@ -495,47 +550,65 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: linear-gradient(#0D152B, #210834);
-  padding: 80px 0;
+  background: linear-gradient(#161630, #210834);
+  padding: 25px;
 }
 
 #about .about-container .background {
   min-height: 300px;
   background: url(../img/team.jpg) center top no-repeat;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  border-radius: 30px;
 }
 
 #about .about-container .content {
-  background: #FFFFFF;
+  border-radius: 25px;
+  background: #1E112D;
+  margin-right: auto;
+  border: 3px solid #52CFA4;
+  width: 80px;
+  height: 375px
 }
 
+
 #about .about-container .title {
-  color: #420807;
+  color: #DDDDDD;
+  padding-top:10px;
+  padding-left:5px;
+  font-stretch:semi-expanded;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
   #about .about-container .title {
-    padding-top: 15px;
+    padding-top: 10px;
   }
 }
 
 #about .about-container p {
-  line-height: 26px;
+  line-height: 0px;
 }
 
 #about .about-container p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+	
 }
 
+
 #about .about-container .icon-box {
+  border: 2px solid #fff;
   background: #074142;
-  background-size: cover;
-  padding: 0 0 35px 5px;
+  padding-left: 20px;
+  margin: auto;
+  border-radius: 20px;
+  width: 420px;
+  height: 83px;
+  margin-top:8px;
 }
 
 #about .about-container .icon-box .icon {
+  margin-top: 8px;
   float: left;
   background: #1C062C;
   width: 64px;
@@ -555,9 +628,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .title {
-  margin-left: 80px;
-  font-weight: 500;
-  margin-bottom: 5px;
+  margin-left: 75px;
+  font-weight: 400;
+  margin-bottom: 2px;
+	padding-top: 16px;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -575,9 +649,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Facts Section
 --------------------------------*/
+
 #facts {
-  background: linear-gradient(#210834, #15041A);
-  padding: 80px 0 60px 0;
+  background: linear-gradient(#1F0833, #0A010E);
+  padding: 75px 0 60px 0;
 }
 
 #facts .counters span {
@@ -592,7 +667,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
-
 /* Services Section
 --------------------------------*/
 #services {
@@ -653,8 +727,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .title {
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-transform: uppercase;
+	
 }
 
 #services .title a {
@@ -669,9 +744,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-   background: url(../img/calltoactiondiscrod.png) fixed center;
+  background: url(../img/calltoactiondiscrod.png)fixed top;
   background-size: cover;
-  padding: 110px 0;
+  padding: 135px;
 }
 
 #call-to-action .cta-title {
@@ -688,7 +763,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+	justify-content: flex-end;
   }
 }
 
@@ -715,9 +790,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
- background: linear-gradient(rgb(20, 3, 25), rgba(26,45,76,0.60)), url(../img/call-to-action_test.jpg)fixed;
-	background-size: cover;
-	position: top;
+  background: linear-gradient(#0A010E, rgba(53,93,158,0.26)), url(../img/call-to-action_test.jpg)fixed;
+  background-size: cover;
+  position: top;
   padding: 80px 0;
 }
 
@@ -754,7 +829,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 200px;
+  height: 225px;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
